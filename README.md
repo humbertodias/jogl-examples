@@ -38,6 +38,10 @@ Run
 mvn compile exec:java -Dexec.mainClass="cg.Cube"
 ```
 
+
+### Output
+![Preview](doc/cube.gif)
+
 ### References
 
 [https://jogamp.org/wiki/index.php/Maven](https://jogamp.org/wiki/index.php/Maven)
