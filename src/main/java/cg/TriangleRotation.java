@@ -63,6 +63,7 @@ public class TriangleRotation implements GLEventListener {
         frame.getContentPane().add(glcanvas);
         frame.setSize(frame.getContentPane().getPreferredSize());
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //Instantiating and Initiating Animator
         final FPSAnimator animator = new FPSAnimator(glcanvas, 300, true);
         animator.start();

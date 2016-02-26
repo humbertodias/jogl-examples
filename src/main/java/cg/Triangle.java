@@ -63,5 +63,6 @@ public class Triangle implements GLEventListener {
         frame.getContentPane().add(glcanvas);
         frame.setSize(frame.getContentPane().getPreferredSize());
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }//end of main
 }//end of classimport com.jogamp.opengl.GL2;
