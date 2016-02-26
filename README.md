@@ -10,7 +10,30 @@ Computer Graphics with JOGL (Java Binding for the OpenGL)
 5. Rhombus
 6. etc
 
+
+### Prerequires
+
+1. Git 2.6+
+2. Maven 3+
+3. Java 8+
+
+
 ### How to Play
+
+Clone
+
+```
+git clone https://github.com/humbertodias/computer-graphics-jogl.git
+```
+
+Inside the folder
+
+```
+cd computer-graphics-jogl
+```
+
+Run
+
 ```
 mvn compile exec:java -Dexec.mainClass="cg.Cube"
 ```
