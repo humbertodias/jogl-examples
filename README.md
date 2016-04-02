@@ -23,13 +23,13 @@ Computer Graphics with JOGL (Java Binding for the OpenGL)
 Clone
 
 ```
-git clone https://github.com/humbertodias/computer-graphics-jogl.git
+git clone https://github.com/humbertodias/jogl-examples.git
 ```
 
 Inside the folder
 
 ```
-cd computer-graphics-jogl
+cd jogl-examples
 ```
 
 Run
